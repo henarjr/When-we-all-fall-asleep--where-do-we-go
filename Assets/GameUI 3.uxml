@@ -1,0 +1,16 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="EndScreen" src="project://database/Assets/EndScreen.uxml?fileID=9197481963319205126&amp;guid=65d7f5f490ad7e84f92746dcd0a86ec9&amp;type=3#EndScreen"/>
+    <ui:Template name="NPCDialogue" src="project://database/Assets/NPCDialogue.uxml?fileID=9197481963319205126&amp;guid=8f916cf8097826141b4891de32c6419b&amp;type=3#NPCDialogue"/>
+    <ui:Template name="PopUpICON 3" src="project://database/Assets/PopUpICON%203.uxml?fileID=9197481963319205126&amp;guid=1aecb15208d8e5b45b47d34e86473500&amp;type=3#PopUpICON 3"/>
+    <ui:Template name="RobotCounter" src="project://database/Assets/RobotCounter.uxml?fileID=9197481963319205126&amp;guid=e137ca048e1ec8745b1752aed74d2a38&amp;type=3#RobotCounter"/>
+    <ui:VisualElement name="HealthBarBackground" style="flex-grow: 0; background-image: url(&quot;project://database/Assets/_2DAdventureGame/Tutorial_Demo/Demo_Art/SugarLand/UI/UIHealthFrameBlue.png?fileID=21300000&amp;guid=4e65018de1d892647ace9c1d6510e500&amp;type=3#UIHealthFrameBlue&quot;); width: 370px; height: 170px; -unity-background-scale-mode: scale-to-fit; align-self: auto; margin-left: 30px; margin-top: 20px;">
+        <ui:VisualElement name="HealthBarContainer" style="flex-grow: 1; position: absolute; height: 59px; width: 201px; top: 49px; left: 153px;">
+            <ui:VisualElement name="HealthBar" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/_2DAdventureGame/Tutorial_Demo/Demo_Art/SugarLand/UI/UIHealthBarPink.png?fileID=-883267908&amp;guid=c71d6f86515064a4bb3d5c78dda9a812&amp;type=3#UIHealthBarPink_0&quot;); width: 200px; flex-direction: column; top: 4px; left: 6px;"/>
+        </ui:VisualElement>
+        <ui:VisualElement name="CharacterPortrait" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/_2DAdventureGame/Art/SugarLand/UI/CharacterPortrait.png?fileID=21300000&amp;guid=e8af26c6841fc05459ccaf23dbab2b63&amp;type=3#CharacterPortrait&quot;); -unity-background-scale-mode: scale-to-fit; position: absolute; height: 133px; width: 157px; top: 17px; left: 9px; flex-wrap: nowrap;"/>
+    </ui:VisualElement>
+    <ui:Instance template="NPCDialogue" name="NPCDialogue" style="position: absolute; top: 80%; right: 30%; bottom: 5%; left: 30%;"/>
+    <ui:Instance template="EndScreen" style="position: absolute; top: 0; right: 0; left: 0; bottom: 0;"/>
+    <ui:Instance template="RobotCounter" name="" style="position: absolute; height: 116px; width: 168px; top: 50px; left: 88%;"/>
+    <ui:Instance template="PopUpICON 3" name="POPupScreen"/>
+</ui:UXML>

@@ -1,0 +1,5 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="RobotCounter" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/_2DAdventureGame/Art/UICounterBar.png?fileID=21300000&amp;guid=4bb9e5210d4bc484ab335c62e1e0ffd3&amp;type=3#UICounterBar&quot;); width: 100%; height: 100%;">
+        <ui:Label text="99/99" name="CounterLabel" style="left: 20px; top: 30px; font-size: 40px; -unity-font-style: bold-and-italic; -unity-font-definition: url(&quot;project://database/Assets/_2DAdventureGame/Fonts/Copyduck.otf?fileID=12800000&amp;guid=f2ac1e9c61ff46b49a8f7b80fbfe7ebf&amp;type=3#Copyduck&quot;); color: rgb(0, 0, 0); width: 280px; white-space: normal; background-position-x: left 0; background-position-y: top 0;"/>
+    </ui:VisualElement>
+</ui:UXML>

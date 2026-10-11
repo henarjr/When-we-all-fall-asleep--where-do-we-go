@@ -1,0 +1,6 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="FRAME" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/_2DAdventureGame/Art/Ducko/UI/UIHealthFrame.png?fileID=21300000&amp;guid=b47cdbd2062c5e64ba5a0bf3f6b045b1&amp;type=3#UIHealthFrame&quot;); font-size: 10px; background-size: 100% 100%; position: absolute; height: 210px; width: 527px; top: 122px; left: 0;">
+        <ui:VisualElement name="portrait" style="flex-grow: 1; background-image: url(&quot;project://database/Assets/_2DAdventureGame/Art/SugarLand/UI/NPCPortrait.png?fileID=21300000&amp;guid=23a67005841c5a048b33d1bef5d53c4a&amp;type=3#NPCPortrait&quot;); position: absolute; height: 173px; width: 186px; top: 15px; left: 34px;"/>
+        <ui:Label text="&quot;Oh... You&apos;re finally here.&quot;" name="GreetingText" style="left: 230px; top: 70px; right: -231px; -unity-font-style: bold-and-italic; font-size: 10px; position: relative; height: 52px; white-space: normal; color: rgb(255, 255, 255); -unity-text-auto-size: best-fit 10px 20px; width: 250px;"/>
+    </ui:VisualElement>
+</ui:UXML>

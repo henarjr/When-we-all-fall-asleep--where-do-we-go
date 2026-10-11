@@ -1,0 +1,5 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement style="flex-grow: 1; background-color: rgba(0, 0, 0, 0); align-self: auto; align-items: center; justify-content: center; color: rgba(27, 27, 27, 0);">
+        <ui:Label text="Label" name="StoryText" style="-unity-text-align: middle-center; white-space: pre; font-size: 80px; color: rgb(185, 185, 185); -unity-font-definition: url(&quot;project://database/Assets/_2DAdventureGame/Fonts/Bremlin.otf?fileID=12800000&amp;guid=f828fdd62e476ad42957aaec2760f9ab&amp;type=3#Bremlin&quot;);"/>
+    </ui:VisualElement>
+</ui:UXML>
